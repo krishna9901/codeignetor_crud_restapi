@@ -2,7 +2,7 @@
 Demonstrating crud rest api in codeigniter3
 
 /**step 1: Create Database and Table**/
-
+```
 create database rest_api;
 
 CREATE TABLE tbl_sample (
@@ -12,9 +12,9 @@ CREATE TABLE tbl_sample (
     datetime DATETIME
 );
 
-
+```
 /**step2 :Make Database Connetion  in application/config/database.php**/
-
+```
 <?php
 
 $active_group = 'default';
@@ -43,22 +43,24 @@ $db['default'] = array(
 );
 
 ?>
-
+```
 
 /**step3: configure base url application/config/config.php**/
+```
 $config['base_url'] = 'http://localhost/coderestapi';
 
 
-
+```
 /**Crud Rest_api List**/
 
+```
 --http://localhost/coderestapi/api/insert
 --http://localhost/coderestapi/api
 --http://localhost/coderestapi/api/delete
 --http://localhost/coderestapi/api/update
 --http://localhost/coderestapi/api/fetch_single
 
-
+```
 
 /**output screenshot**/
 
