@@ -1,7 +1,7 @@
 # codeignetor_crud_restapi
 Demonstrating crud rest api in codeigniter3
 
-/**step 1: Create Database and Table**/
+**step 1: Create Database and Table**
 ```
 create database rest_api;
 
@@ -13,7 +13,7 @@ CREATE TABLE tbl_sample (
 );
 
 ```
-/**step2 :Make Database Connetion  in application/config/database.php**/
+**step2 :Make Database Connetion  in application/config/database.php**
 ```
 <?php
 
@@ -51,7 +51,7 @@ $config['base_url'] = 'http://localhost/coderestapi';
 
 
 ```
-/**Crud Rest_api List**/
+**Crud Rest_api List**
 
 ```
 --http://localhost/coderestapi/api/insert
@@ -62,7 +62,7 @@ $config['base_url'] = 'http://localhost/coderestapi';
 
 ```
 
-/**output screenshot**/
+**output screenshot**
 
 ![image](https://github.com/krishna9901/codeignetor_crud_restapi/assets/54264561/ea02a5df-d77f-45b5-bb5d-a58c057a826c)
 
