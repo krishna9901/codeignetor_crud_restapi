@@ -1,0 +1,84 @@
+.required-field::after {
+  content: "*";
+  color: red;
+  
+}
+
+
+
+/**/ 
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow */
+  transition: 0.3s; /* Transition effect */
+   width: 100% ! important ;/* Card width */
+  height: 180px; /* Card height */
+  border-radius: 16px; /* Rounded corners */
+ 
+    margin-bottom: 10px;
+  padding: 10px; /* Padding inside the card */
+
+background-color: #f48fb1;;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+/* Example styling for card title and content */
+.card .card-title {
+  font-size: 20px; /* Title font size */
+  font-weight: bold; /* Title font weight */
+  border-bottom:1px solid #fff;
+  text-align: center;
+
+
+}
+
+.card-content {
+  font-size: 16px; /* Content font size */
+  border-bottom:1px solid #fff;
+  padding: 10px;
+}
+
+.card-text {
+    
+  font-size: 16px;
+  padding: 10px;
+
+}
+
+.btn-action{
+    float:right;
+
+}
+
+.navbar {
+  
+    border-bottom: 1px solid black;
+}
+
+.panel-body {
+   padding: 0px ! important ; 
+}
+
+.modal-content{
+    background-color: #f48fb1 !important;
+    border-radius:16px ! important;
+}
+
+.text-center {
+    display: block; /* Ensure each label is on its own line */
+   text-align: center;
+}
+
+
+.modal-footer {
+    padding: 15px;
+    text-align: center ! important;
+}
+
+/** */
+
+
+
